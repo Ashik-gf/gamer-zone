@@ -1,0 +1,297 @@
+@media screen and (max-width: 425px) {
+    .nav{
+        /* border: 2px solid rgb(7, 5, 0); */
+        width: 100%;
+        height: 190px;
+        display: block;
+        margin: 10px auto;
+    } 
+    .nav .icon{
+        display: flex;
+        justify-content: center;
+    }
+    .nav .navbar a{
+        width: 100%;
+        display: block;
+        padding: 10px;
+    }
+    
+    .navbar button{
+        margin: 0px auto;
+        display: block;
+        height: 40px;
+        width: 200px;
+    }
+    .header{
+        height: 200px;
+        width: 100%;
+        margin: 10px auto;
+        /* padding: 30px; */
+        /* border:2px solid rgb(51, 26, 143);  */
+        
+    }
+    /* banner Start */
+    .banner{
+        border: 2px solid rgb(21, 12, 12);
+        height: 650px;
+        width: 100%;
+        display: block;
+        
+    
+    }
+    .banner .left_side{
+       display: flex;
+       justify-content: center;
+       align-items: center;
+        height: 250px;
+        width: 100%;
+        border: 2px solid rgb(44, 33, 200);
+     background-image: url(images/Group\ 14.png);
+     background-size: cover;
+    }
+    .banner .left_side .main_left span{
+        padding: 10px;
+        font-size: 40px;
+       margin-left: 70px;
+       
+
+        
+    }
+    .banner .left_side .main_left h1{
+    
+    font-family: Work Sans;
+    font-size: 25px;
+    font-weight: 600;
+
+    }
+    .banner .left_side .main_left ul li{
+        list-style: none;
+       text-align: start;
+       margin: 0px auto;
+    }
+    .banner .right_side{
+        border: 2px solid black;
+        height: 300px;
+        width: 100%;
+       
+    }
+    .banner .right_side img{
+        height: 280px;
+        width: 90%
+    }
+    /* template css */
+    .template{
+        display: grid;
+        /* display: flex;
+        flex-direction: row-reverse;
+        justify-content: center;
+        align-items: center; */
+        border: 2px solid black;
+        height: 680px;
+        width: 100%;
+        background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
+    }
+    .temp_left{
+       
+        height: 400px;
+        width: 100%;
+        /* position: relative; */
+    }
+    .temp_left img{
+        height: 300px;
+        border: 1px solid red;
+        /* position: absolute;
+        right: 0px;
+        bottom: 0px; */
+    }
+    .temp_right{
+        height: 250px;
+        width: 100%;
+        border: 2px solid rgb(205, 13, 13);
+        text-align: center;
+    }
+    .temp_right h2{
+        margin-bottom: 10px;
+        text-align: center;
+    font-family: Work Sans;
+    font-size: 32px;
+    }
+    .temp_right p{
+        text-align: center;
+    }
+    /* game card */
+    
+    .game_card{
+        /* border: 2px solid blueviolet; */
+        height: 1400px;
+        width: 100%;
+        margin-top: 20px;
+    }
+    
+    
+    .game_temp{
+        border: 2px solid forestgreen;
+        width: 80%;
+        margin: 0px auto;
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        grid-template-rows: 280px;
+        gap: 10px;
+    }
+    /* play card */
+    .paly_card{
+        height: 650px;
+        width: 90%;
+        border: 2px solid rgb(46, 20, 218);
+       display: grid;
+       grid-template-columns: repeat(1,1fr);
+       grid-template-rows: 200px;
+       gap: 10px;
+       
+    }
+    .left_card{
+        border: 2px solid tomato;
+       height: 200px;
+       width: 70%;
+       margin: 0px auto; 
+    }
+    .left_card h2{
+        text-align: center;
+        font-size: 25px;
+        font-weight: 700;
+       
+        }
+        .left_card h2 span{
+            font-size: 25px;
+        }
+        .left_card p{
+            text-align: right;
+            font-size: 10px;
+            text-align: justify;
+        }
+        .right_card img{
+            height: 350px;
+            width: 320px;
+        }
+        .right_card{
+            border: 2px solid tomato;
+            height:370px;
+            width:48%;
+            display: block;
+        }
+        .sort_p img{
+            height: 180px;
+            width: 180px;
+            position: relative;
+            left: -60px;
+            bottom:130px;
+        }
+        .careers{
+            height: 1000px;
+            width: 97%;
+            margin: 10px auto;
+            background-color: #c61a81;
+            display: grid;
+           grid-template-columns: repeat(1,1fr);
+        }
+        .careers2{
+            height: 990px;
+            width: 97%;
+            display: grid;
+           grid-template-columns: repeat(1,1fr);
+        }
+            
+    .left_career{
+        height: 450px;
+        width: 95%;
+        border: 2px solid greenyellow;
+        margin: 0px auto;
+    }
+    .left_career p{
+        color: white;
+        font-size: 10px;
+      
+    }
+    .left_career h2{
+        color: white;
+        padding: 5px;
+        font-size: 30px;
+        font-style: normal;
+        font-weight: 700;
+    
+        }
+        .right_career{
+            /* border: 2px solid rgb(50, 42, 42); */
+            height: 330px;
+            width: 100%;
+            border: 2px solid yellowgreen;
+        }
+        .logo_box{
+            height: 200px;
+            width: 100%;
+            border: 2px solid navy;
+    
+        }
+        .logo_box ul{
+            display: grid;
+            grid-template-columns: repeat(3,1fr);
+            
+            gap: 5px;
+            padding: 5px;
+        }
+        .logo_box ul li a {
+            padding: 5px;
+           
+           
+        }
+        .logo_box ul li{
+            border: 2px solid red;
+            font-size: 10px;
+        }
+        .footer{
+            height: 600px;
+            width: 100%;
+            background-color: black;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .footer_card{
+            border: 2px solid red;
+            height: 500px;
+            width: 100%;
+        }
+        .information ul{
+            display: grid;
+            grid-template-columns: repeat(2,1fr);
+            gap: 10px;
+            padding-top: 20px;
+            margin-left: 100px;
+        }
+        .social_media ul{
+           display: grid;
+           grid-template-columns: repeat(3,1fr);
+            gap: 10px;
+            margin-left: 100px;
+            padding-top: 30px;
+        }
+        .about_us ul{
+            display: grid;
+            grid-template-columns: repeat(2,1fr);
+            gap: 5px;
+            /* border: 2px solid red; */
+            margin-left: 100px;
+        }
+    
+  
+    
+    
+
+
+
+
+
+
+
+
+}

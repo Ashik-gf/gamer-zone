@@ -18,7 +18,7 @@
     justify-content: center;
 }
 .nav{
-    border: 2px solid darkblue;
+    border: 2px solid rgb(206, 167, 12);
     width: 80%;
     height: 80px;
     display: flex;
@@ -81,7 +81,7 @@ padding: 5px;
 .banner .left_side{
     display: flex;
     justify-content: center;
-    /* align-items: center; */
+    align-items: center;
     height: 75vh;
     width: 50%;
     border: 2px solid gray;
@@ -162,12 +162,12 @@ background: #4EC5F7;
 
 .banner .right_side{
     border: 2px solid black;
-    height: 85vh;
+    height: 75vh;
     width: 49%;
    
 }
 .banner .right_side img{
-    height: 400px;
+    height: 450px;
     width: 87vh
 }
 .template{
@@ -408,6 +408,7 @@ border-radius: 10px;
     .left_career .ul .ul1 ul li a{
        text-decoration: none;
        color: white;
+       /* margin-left: 10px; */
        
     }
 
@@ -418,11 +419,6 @@ border-radius: 10px;
 
 
     }
-
-
-
-
-
     .left_career ul li{
         list-style: none;
     }
@@ -436,12 +432,6 @@ border-radius: 10px;
     color: #FF42A5;
     font-size: 17px;
 }
-
-
-
-
-
-
     .right_career{
         /* border: 2px solid rgb(50, 42, 42); */
         width: 50%;
@@ -454,24 +444,28 @@ border-radius: 10px;
     .logo_box{
         height: 200px;
         border: 2px solid navy;
+
     }
     .logo_box ul{
         display: flex;
         justify-content: center;
         align-items: center;
-        gap: 20px;
-        margin: 10px;
+        gap: 10px;
+        
         padding: 10px;
     }
     .logo_box ul li{
         display: flex;
         justify-content: center;
         align-items: center;
-        /* border: 1px solid red; */
+        height: 25px;
         border-radius: 40px;
         padding: 5px;
         transition: 1s;
+        font-size: 13px;
     }
+
+
     .logo_box ul li:hover{
         border: 1.5px solid red;
         cursor: pointer;
@@ -481,8 +475,12 @@ border-radius: 10px;
     .logo_box ul li a img{
         display: flex;
         gap: 20px;
-        height: 45px;
+        height: 25px;
         /* border: 2px solid red; */
+    }
+    .logo_box ul li a {
+        padding: 10px;
+       
     }
     .footer{
         height: 80vh;
@@ -554,6 +552,7 @@ border-radius: 10px;
         font-size: 12px;
         text-align: center; padding-top: 10px;
     }
+  
 
 
 
