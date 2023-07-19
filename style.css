@@ -67,6 +67,7 @@
 color: red;
 padding: 5px;
 }
+/* banner */
 .banner{
     
     height: 75vh;
@@ -339,8 +340,6 @@ border-radius: 10px;
     .right_card img{
         height: 400px;
         margin-left: 60px;
-     
-        
        
     }
     .sort_p img{
@@ -439,15 +438,13 @@ border-radius: 10px;
     }
     .logo_box{
         height: 200px;
-       
-
+        
     }
     .logo_box ul{
         display: flex;
         justify-content: center;
         align-items: center;
         gap: 10px;
-        
         padding: 10px;
     }
     .logo_box ul li{
