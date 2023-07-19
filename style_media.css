@@ -32,7 +32,7 @@
     }
     /* banner Start */
     .banner{
-        border: 2px solid rgb(21, 12, 12);
+        /* border: 2px solid rgb(21, 12, 12); */
         height: 650px;
         width: 100%;
         display: block;
@@ -77,16 +77,16 @@
     }
     .banner .right_side img{
         height: 280px;
-        width: 90%
+       width: 350px;
     }
     /* template css */
     .template{
-        display: grid;
+        display: block;
         /* display: flex;
         flex-direction: row-reverse;
         justify-content: center;
         align-items: center; */
-        border: 2px solid black;
+        /* border: 2px solid black; */
         height: 680px;
         width: 100%;
         background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
@@ -99,7 +99,9 @@
     }
     .temp_left img{
         height: 300px;
-        border: 1px solid red;
+        width: 410px;
+        margin: 0px auto;
+         /* border: 1px solid red; */
         /* position: absolute;
         right: 0px;
         bottom: 0px; */
@@ -107,7 +109,7 @@
     .temp_right{
         height: 250px;
         width: 100%;
-        border: 2px solid rgb(205, 13, 13);
+        /* border: 2px solid rgb(205, 13, 13); */
         text-align: center;
     }
     .temp_right h2{
@@ -130,7 +132,7 @@
     
     
     .game_temp{
-        border: 2px solid forestgreen;
+        /* border: 2px solid forestgreen; */
         width: 80%;
         margin: 0px auto;
         display: grid;
@@ -142,7 +144,7 @@
     .paly_card{
         height: 650px;
         width: 90%;
-        border: 2px solid rgb(46, 20, 218);
+        /* border: 2px solid rgb(46, 20, 218); */
        display: grid;
        grid-template-columns: repeat(1,1fr);
        grid-template-rows: 200px;
@@ -150,7 +152,7 @@
        
     }
     .left_card{
-        border: 2px solid tomato;
+        /* border: 2px solid tomato; */
        height: 200px;
        width: 70%;
        margin: 0px auto; 
@@ -174,7 +176,7 @@
             width: 320px;
         }
         .right_card{
-            border: 2px solid tomato;
+            /* border: 2px solid tomato; */
             height:370px;
             width:48%;
             display: block;
@@ -188,7 +190,7 @@
         }
         .careers{
             height: 1000px;
-            width: 97%;
+            width: 95%;
             margin: 10px auto;
             background-color: #c61a81;
             display: grid;
@@ -204,7 +206,7 @@
     .left_career{
         height: 450px;
         width: 95%;
-        border: 2px solid greenyellow;
+        /* border: 2px solid greenyellow; */
         margin: 0px auto;
     }
     .left_career p{
@@ -228,7 +230,7 @@
         }
         .logo_box{
             height: 200px;
-            width: 100%;
+            width: 98%;
             border: 2px solid navy;
     
         }
@@ -245,7 +247,7 @@
            
         }
         .logo_box ul li{
-            border: 2px solid red;
+            /* border: 2px solid red; */
             font-size: 10px;
         }
         .footer{
@@ -257,7 +259,7 @@
             align-items: center;
         }
         .footer_card{
-            border: 2px solid red;
+            /* border: 2px solid red; */
             height: 500px;
             width: 100%;
         }

@@ -13,12 +13,12 @@
     height: 80px;
     width: 100%;
     /* padding: 30px; */
-    border:2px solid red; 
+    /* border:2px solid red;  */
     display: flex;
     justify-content: center;
 }
 .nav{
-    border: 2px solid rgb(206, 167, 12);
+    /* border: 2px solid rgb(206, 167, 12); */
     width: 80%;
     height: 80px;
     display: flex;
@@ -51,7 +51,7 @@
     padding-right: 20px;
 }
 .navbar{
-    border: 2px solid aquamarine;
+    /* border: 2px solid aquamarine; */
 }
 .navbar button {
     height: 50px;
@@ -70,7 +70,7 @@ color: red;
 padding: 5px;
 }
 .banner{
-    border: 2px solid red;
+    /* border: 2px solid red; */
     height: 75vh;
     width: 100%;
     display: flex;
@@ -84,7 +84,7 @@ padding: 5px;
     align-items: center;
     height: 75vh;
     width: 50%;
-    border: 2px solid gray;
+    /* border: 2px solid gray; */
  background-image: url(images/Group\ 14.png);
  background-size: cover;
 }
@@ -124,7 +124,7 @@ background-clip: text;
 .btn{
     
     width: 300px;
-    border: 2px solid tomato; 
+    /* border: 2px solid tomato;  */
     display: flex;
     justify-content: start;
     gap: 20px;
@@ -161,7 +161,7 @@ background: #4EC5F7;
 
 
 .banner .right_side{
-    border: 2px solid black;
+    /* border: 2px solid black; */
     height: 75vh;
     width: 49%;
    
@@ -174,27 +174,27 @@ background: #4EC5F7;
     display: flex;
     justify-content: center;
     align-items: center;
-    border: 2px solid black;
+    /* border: 2px solid black; */
     height: 400px;
     width: 100%;
     background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
 }
 .temp_left{
-    border: 2px solid black;
+    /* border: 2px solid black; */
     height: 400px;
     width: 60%;
     position: relative;
 }
 .temp_left img{
     height: 380px;
-    border: 1px solid red;
+    /* border: 1px solid red; */
     position: absolute;
     right: 0px;
     bottom: 0px;
 }
 .temp_right{
     width: 30%;
-    border: 2px solid rgb(205, 13, 13);
+    /* border: 2px solid rgb(205, 13, 13); */
     text-align: end;
 }
 .temp_right h2{
@@ -250,7 +250,7 @@ background-clip: text;
 .head_tag{
     text-align: center;
    padding: 15px;
-    border: 2px solid red;
+    /* border: 2px solid red; */
 }
 .head_tag h3{
    font-size: 25px;
@@ -266,7 +266,7 @@ padding: 10px;
 }
 
 .game_temp{
-    border: 2px solid forestgreen;
+    /* border: 2px solid forestgreen; */
     width: 80%;
     margin: 0px auto;
     display: grid;
@@ -274,14 +274,14 @@ padding: 10px;
     grid-template-rows: 280px;
 }
 .game_temp .card{
-border: 2px solid red;
+/* border: 2px solid red; */
 transition: 3s;
 border-radius: 10px;
 
 }
 
 .game_temp .card:hover{
-    border: 2px solid red;
+    /* border: 2px solid red; */
     cursor: pointer;
     box-shadow: 10px 100px 100px 5px rgb(122, 71, 71);
 }
@@ -301,7 +301,7 @@ border-radius: 10px;
     .paly_card{
         height: 90vh;
         width: 80%;
-        border: 2px solid tomato;
+        /* border: 2px solid tomato; */
        display: flex;
        justify-content: center;
        align-items: center;
@@ -309,7 +309,7 @@ border-radius: 10px;
        margin: 0px auto;
     }
     .left_card{
-        border: 2px solid tomato;
+        /* border: 2px solid tomato; */
         height: 300px;
         width: 30%;
         
@@ -332,7 +332,7 @@ border-radius: 10px;
 
 
     .right_card{
-        border: 2px solid tomato;
+        /* border: 2px solid tomato; */
         height: 75vh;
         width:48%;
         display: block;
@@ -443,7 +443,7 @@ border-radius: 10px;
     }
     .logo_box{
         height: 200px;
-        border: 2px solid navy;
+        /* border: 2px solid navy; */
 
     }
     .logo_box ul{
@@ -491,7 +491,7 @@ border-radius: 10px;
         align-items: center;
     }
     .footer_card{
-        border: 2px solid red;
+        /* border: 2px solid red; */
         height: 350px;
         width: 70%;
     }
