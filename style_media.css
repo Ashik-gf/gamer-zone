@@ -45,7 +45,7 @@
        align-items: center;
         height: 250px;
         width: 100%;
-        border: 2px solid rgb(44, 33, 200);
+        /* border: 2px solid rgb(44, 33, 200); */
      background-image: url(images/Group\ 14.png);
      background-size: cover;
     }
@@ -70,20 +70,23 @@
        margin: 0px auto;
     }
     .banner .right_side{
-        border: 2px solid black;
-        height: 300px;
+        /* border: 2px solid black; */
+        height: 280px;
         width: 100%;
        
     }
     .banner .right_side img{
-        height: 280px;
-       width: 350px;
+        height: 270px;
+       width: 370px;
+       /* border: 2px solid red; */
+       margin-left: 10px;
+       
     }
     /* template css */
     .template{
         display: block;
         
-        height: 680px;
+        height: 670px;
         width: 100%;
         background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
     }
@@ -118,7 +121,7 @@
     
     .game_card{
       
-        height: 1400px;
+        height: 1300px;
         width: 100%;
         margin-top: 20px;
     }
@@ -137,7 +140,6 @@
     .paly_card{
         height: 650px;
         width: 90%;
-       
        display: grid;
        grid-template-columns: repeat(1,1fr);
        grid-template-rows: 200px;
@@ -219,18 +221,17 @@
        
             height: 330px;
             width: 100%;
-            border: 2px solid yellowgreen;
+            /* border: 2px solid yellowgreen; */
         }
         .logo_box{
-            height: 200px;
+            height: 220px;
             width: 98%;
-            border: 2px solid navy;
+            /* border: 2px solid navy; */
     
         }
         .logo_box ul{
             display: grid;
             grid-template-columns: repeat(3,1fr);
-            
             gap: 5px;
             padding: 5px;
         }
@@ -253,7 +254,7 @@
         }
         .footer_card{
           
-            height: 500px;
+            height: 450px;
             width: 100%;
         }
         .information ul{
@@ -268,13 +269,13 @@
            grid-template-columns: repeat(3,1fr);
             gap: 10px;
             margin-left: 100px;
-            padding-top: 30px;
+            padding-top: 20px;
         }
         .about_us ul{
             display: grid;
             grid-template-columns: repeat(2,1fr);
             gap: 5px;
-           
-            margin-left: 100px;
+            margin-left: 90px;
+            padding-bottom: 20px;
         }
 }
