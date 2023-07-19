@@ -1,13 +1,13 @@
 @media screen and (min-width:425px) and (max-width:768px) {
     
-    .header{
+    .manubar{
         height: 120px;
         width: 100%;
         display: flex;
         justify-content: center;
     }
     .nav{
-       /* border: 2px solid pink; */
+       border: 2px solid pink;
         width: 100%;
         height: 100px;
         display: flex;
@@ -178,14 +178,6 @@
             width: 100%;
             
         }
-
-
-
-
-
-
-
-
 
 }
 
