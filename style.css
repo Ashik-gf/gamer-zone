@@ -272,14 +272,18 @@ padding: 10px;
     grid-template-rows: 280px;
 }
 .game_temp .card{
-
+  
 transition: 3s;
 border-radius: 10px;
 
 }
 
+
+
+
+
 .game_temp .card:hover{
-   
+   display: block;
     cursor: pointer;
     box-shadow: 10px 100px 100px 5px rgb(122, 71, 71);
 }
